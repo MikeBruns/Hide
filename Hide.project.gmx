@@ -43,6 +43,7 @@
       <sprite>sprites\s_couch_black</sprite>
       <sprite>sprites\s_flowerpot</sprite>
       <sprite>sprites\s_stool</sprite>
+      <sprite>sprites\s_fountain</sprite>
     </sprites>
     <sprites name="walls">
       <sprite>sprites\s_wall_left</sprite>
@@ -130,6 +131,7 @@
         <object>objects\o_debris2</object>
         <object>objects\o_debris3</object>
         <object>objects\o_stain</object>
+        <object>objects\o_fountain</object>
       </objects>
     </objects>
     <objects name="light_engine_obj">
@@ -144,9 +146,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\r_house3</room>
+    <room>rooms\r_house2</room>
     <room>rooms\r_house1</room>
     <room>rooms\r_menu</room>
-    <room>rooms\r_house2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
